@@ -1,8 +1,10 @@
 function Home() {
-  return <h1>Teste</h1>;
+  return(
+  <div>
+  <h1>Teste 123</h1>;
+  <h2>segunda linha</h2>
+  </div>
+  )
 }
 
 export default Home;
-
-
-
