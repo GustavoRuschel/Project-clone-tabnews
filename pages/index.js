@@ -7,4 +7,12 @@ function Home() {
   )
 }
 
+function Teste(){
+  return(
+    <div>
+      <h1>bora testar isso aqui!</h1>
+    </div>
+  )
+}
+
 export default Home;
