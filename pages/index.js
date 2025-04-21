@@ -1,8 +1,11 @@
 function Home() {
   return (
     <div>
-      <h1>Teste 123</h1>;<h2>segunda linha</h2>
+      <h1>Teste 123</h1>
+      <h2>segunda linha</h2>
       <Teste />
+      <TesteCommit />
+      <TesteAgain />
     </div>
   );
 }
@@ -15,11 +18,21 @@ function Teste() {
   );
 }
 
-function testeCommit() {
+function TesteCommit() {
   return (
     <div>
-      <title>Fazendo um teste de testeCommit</title>
+      <h2>Fazendo um teste de testeCommit</h2>
     </div>
   );
 }
+
+function TesteAgain() {
+  return (
+    <div>
+      <h3>teste</h3>
+    </div>
+  );
+}
+
+
 export default Home;
