@@ -13,7 +13,7 @@ const gustavo = new pessoa("Gustavo", "sardinha, 26");
 function BaleiaOuSardinha(pessoa) {
   if (pessoa.investidor == baleia && pessoa.idade >= "25") {
     console.log(
-      `${pessoa.nome} você é a Tesla? Binance? Kraken? MicroStrategy? BlackRock? Michael Saylor?`
+      `${pessoa.nome} você é a Tesla? Binance? Kraken? MicroStrategy? BlackRock? Michael Saylor?`,
     );
   }
 
