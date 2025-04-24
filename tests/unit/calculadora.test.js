@@ -1,4 +1,4 @@
-
+const calculadora = require("../../models/calculadora.js")
 
 // test("nome do teste", callbackFunction );
 
@@ -26,7 +26,7 @@
 //   expect(2).toBe(1);
 // })
 
-const calculadora = require("../models/calculadora.js")
+
 
 test("somar 2 + 2 deveria retornar 4", () =>{
   const resultado = calculadora.somar(2,2)
