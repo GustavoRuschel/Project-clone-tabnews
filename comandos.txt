@@ -1,3 +1,5 @@
-Server down: docker compose -f infra/compose.yaml down
+DB down: docker compose -f infra/compose.yaml down
 
-Server up: docker compose -f infra/compose.yaml up
+DB up: docker compose -f infra/compose.yaml up
+
+database status: docker ps --all
